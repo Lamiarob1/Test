@@ -5,3 +5,8 @@ vscode:
     - dbaeumer.vscode-eslint
     - golang.go
     - esbenp.prettier-vscode
+tasks:
+  - name: Dev Setup
+    before: npm install --global netlify-cli
+    init: yarn install
+    command: ntl dev
