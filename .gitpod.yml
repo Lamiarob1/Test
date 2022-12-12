@@ -3,4 +3,5 @@ image:
 vscode:
   extensions:
     - dbaeumer.vscode-eslint
+    - golang.go
     - esbenp.prettier-vscode
